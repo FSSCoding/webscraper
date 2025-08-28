@@ -2,7 +2,7 @@
 
 🚀 **A self-contained, portable web scraper with optional semantic analysis capabilities.**
 
-Drop this module into any project and start scraping with semantic intelligence!
+This is the web search tool used in my [Qwen-Code fork](https://github.com/FSSCoding/qwen-code), providing significantly better search results than standard implementations. Drop this module into any project and start scraping with semantic intelligence!
 
 ## ✨ Features
 
