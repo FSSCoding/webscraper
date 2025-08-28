@@ -1,0 +1,23 @@
+# Core WebScraperPortable Dependencies (with exact versions from system)
+requests==2.31.0
+beautifulsoup4==4.12.3
+pandas==2.2.3
+
+# Environment Variables Support
+python-dotenv==1.1.1
+
+# Optional Dependencies (Enhanced Features)
+
+# Semantic Analysis & AI Features
+ollama==0.4.3
+numpy==2.2.6
+
+# Enhanced Terminal Output
+rich==13.7.1
+
+# Document Parsing
+python-docx==1.1.2
+PyMuPDF==1.24.11
+
+# Testing
+pytest==8.3.3
