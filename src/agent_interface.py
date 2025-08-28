@@ -23,11 +23,11 @@ except (ImportError, ModuleNotFoundError):
 
 try:
     from .search import SearchEngine
-    from scraper import WebScraperAPI
+    from .scraper import WebScraperAPI
     from .utils import app_logger
 except (ImportError, ModuleNotFoundError):
     from .search import SearchEngine
-    from scraper import WebScraperAPI
+    from .scraper import WebScraperAPI
     from .utils import app_logger
 
 

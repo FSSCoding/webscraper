@@ -91,7 +91,10 @@ class ServiceContainer:
 
     def _init_scraper_api(self, config):
         """Initialize web scraper API"""
-        from scraper import WebScraperAPI
+        try:
+            from .scraper import WebScraperAPI
+        except ImportError:
+            from scraper import WebScraperAPI
 
         scraper_config = {
             "max_workers": config.get("max_workers", 5),

@@ -134,6 +134,11 @@ auto_research_cache/
 daily_reports/
 research_reports/
 test_output/
+test_html/
+test_search_scrape/
+results/
+search_stats.json
+.webscraper_sessions.json
 
 # IDE files
 .vscode/
